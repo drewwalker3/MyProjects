@@ -1,0 +1,156 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#drewwalker {
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition:0.3s;
+}
+
+nav a:hover {
+    background:black;
+    border-radius: 5px;
+}
+
+#gmail, #linkedin, #github, #phonenumber {
+    width: 20%;
+    max-width: 400px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+}
+
+#gmail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#linkedin:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#github:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#phonenumber:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#about-me {
+    font-size: 16px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px; /* Makes the corners rounded */
+    display: inline-block; /* Prevents full-width expansion */
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    background-color: gray;
+}
+
+#about-me:hover {
+    transform: scale(1.1); /* Enlarges text and border */
+    font-size: 16px;
+    border-width: 5px; /* Makes the border thicker on hover */
+    border-radius: 30px; /* Makes the box even more rounded on hover */
+}
+
+.projects {
+    font-size: 16px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px; /* Makes the corners rounded */
+    display: inline-block; /* Prevents full-width expansion */
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    background-color: blue;
+}
+
+.projects:hover {
+    transform: scale(1.1); /* Enlarges text and border */
+    font-size: 16px;
+    border-width: 5px; /* Makes the border thicker on hover */
+    border-radius: 30px; /* Makes the box even more rounded on hover */
+}
+
+#python, #java, #html, #css {
+    width: 10%;
+    max-width: 400px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+}
+
+#python:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#java:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#html:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#css:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#experience {
+    font-size: 16px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px; /* Makes the corners rounded */
+    display: inline-block; /* Prevents full-width expansion */
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+#experience:hover {
+    transform: scale(1.1); /* Enlarges text and border */
+    font-size: 16px;
+    border-width: 5px; /* Makes the border thicker on hover */
+    border-radius: 30px; /* Makes the box even more rounded on hover */
+}
+
+footer {
+    background-color: black;
+    margin-top: 200px;
+    margin: auto;
+}
